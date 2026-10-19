@@ -1,4 +1,7 @@
 # THESIS
+The Sonar dataset was used to implement and test the complete experimental pipeline.
+For the remaining datasets, the initial evaluation of the five classification models has been performed under reference conditions, without artificially introduced missingness.
+
 List of datasets used: 
 https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
 https://archive.ics.uci.edu/dataset/186/wine+quality
