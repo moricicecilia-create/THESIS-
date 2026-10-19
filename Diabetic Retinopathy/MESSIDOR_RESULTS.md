@@ -12,11 +12,11 @@
 
 ## 4. Computational cost
 
-| Model | Fit / Preparation Time (s) | Prediction Time (s) | Peak RAM (GB) |
+| Model | Fit / Preparation Time (s) | Prediction Time (s) | 
 |---|---:|---:|---|
-| TabPFN-v2 | 0.306 | 159.730 | Not measured |
-| TabICLv2 | 0.799 | 40.369 | Not measured |
-| TabDPT | 31.982 | 57.259 | Not measured |
-| CatBoost | 1.113 | 0.005 | Not measured |
-| MLP | 0.535 | 0.003 | Not measured |
+| TabPFN-v2 | 0.306 | 159.730 | 
+| TabICLv2 | 0.799 | 40.369 | 
+| TabDPT | 31.982 | 57.259 | 
+| CatBoost | 1.113 | 0.005 | 
+| MLP | 0.535 | 0.003 |
 
