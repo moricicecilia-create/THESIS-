@@ -3,7 +3,7 @@
 
 ## Experimental design
 
-- **Data split:** stratified 60% train/context, 10% validation, 15% calibration, 15% test (approximately; integer counts depend on split).
+- **Data split:** stratified 60% train/context, 10% validation, 15% calibration, 15% test 
 - **Seven evaluation scenarios:** `reference` (complete input); `cell_10`, `cell_30`, `cell_50` (independent random cell masking); and `feature_10`, `feature_30`, `feature_50` (entire columns masked across the evaluation subset).
 - **Missingness:** injected into calibration and test inputs, not the training inputs. Masks are generated independently for calibration and test; each model is evaluated on the same scenario within a seed.
 - **Three probability-calibration methods:** `Uncalibrated` (no additional post-hoc calibration), `Reference_Calibration` (temperature fitted on complete calibration data), and `Missingness_Augmented_Calibration` (temperature fitted using complete, 10%-cell-masked, and 30%-cell-masked calibration versions).
